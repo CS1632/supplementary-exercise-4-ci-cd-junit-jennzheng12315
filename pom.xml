@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.wonsunahn</groupId>
-  <artifactId>cs1632-cicd-junit</artifactId>
+  <artifactId>cs1632-cicd-junit-jez38</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
@@ -37,7 +37,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Apache Maven Packages</name>
-      <url>https://maven.pkg.github.com/CS1632/supplementary-exercise-4-ci-cd-junit-jennzheng12315</url>
+      <url>https://github.com/CS1632/supplementary-exercise-4-ci-cd-junit-jennzheng12315</url>
     </repository>
   </distributionManagement>
 
@@ -130,7 +130,7 @@
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>cs1632-cicd-junit-jez38</artifactId>
+        <artifactId>maven-javadoc-plugin</artifactId>
         <version>${maven-javadoc-plugin.version}</version>
       </plugin>
     </plugins>
